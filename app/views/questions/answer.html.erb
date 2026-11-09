@@ -1,0 +1,16 @@
+
+<div class="container mt-5">
+  <h1>Coach's Answer</h1>
+
+  <div class="border-start border-4 ps-3 my-4">
+    <p><%= @question %></p>
+    <p class="text-secondary">- You</p>
+  </div>
+
+  <div class="border-start border-4 border-warning bg-light p-3 my-4">
+    <p><%= @answer %></p>
+    <p class="text-secondary">- Your coach</p>
+  </div>
+
+  <%= link_to "Ask another question", "/ask", class: "btn btn-outline-primary" %>
+</div>
